@@ -1,0 +1,7 @@
+#hover-div {
+    background-color: white; /* initial background color */
+  }
+  
+  #hover-div:hover {
+    background-color: blue; /* background color on hover */
+  }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My HTML Page</title>
+</head>
+<body>
+  <p id="myParagraph">This is the original paragraph text.</p>
+  <button onclick="changeParagraphText()">Click me!</button>
+
+  <script>
+    function changeParagraphText() {
+      var paragraph = document.getElementById("myParagraph");
+      paragraph.textContent = "This is the new paragraph text!";
+    }
+  </script>
+</body>
+</html>

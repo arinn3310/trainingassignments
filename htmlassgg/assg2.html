@@ -1,0 +1,46 @@
+<!--student admission form for the college webpage using HTML form objects.  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Admission Form</title>
+</head>
+<body>
+  <h1 style="font-style: oblique;">Student Admission Form</h1>
+  <form>
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+    
+    <label>Email:</label>
+    <input type="email" name="email" required><br><br>
+    
+    <label>Phone Number:</label>
+    <input type="tel" name="phone" required><br><br>
+    
+    <label>Address:</label>
+    <textarea name="address" required></textarea><br><br>
+    
+    <label>Choose Your Stream:</label>
+    <select name="stream" required>
+      <option value="">Select Stream</option>
+      <option value="cse">CSE</option>
+      <option value="ece">ECE</option>
+      <option value="mech">MECH</option>
+      <option value="civil">CIVIL</option>
+    </select><br><br>
+    
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required><br><br>
+    
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+    
+    <label>12th Standard Marks:</label>
+    <input type="number" name="marks" required><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
